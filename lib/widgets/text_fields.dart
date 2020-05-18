@@ -26,7 +26,7 @@ class _TextFieldsState extends State<TextFields> {
     //newTx was added before the createState was run, so in order to call it, you have to use widget.newTx. Try delete "widget." and read the error message.
     Navigator.of(context).pop();
   }
- 
+
   void presentDatePicker() {
     showDatePicker(
             context: context,
